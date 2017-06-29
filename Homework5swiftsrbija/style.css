@@ -1,0 +1,157 @@
+body {
+    background: #fff;
+    color: #242424;
+    font-size: 0.8em;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
+}
+
+#header {
+	display: block;
+	height: 57px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+#container {
+	width:70%;
+	margin: 0 auto;
+    max-width: 1280px;
+	padding-top: 20px;
+}
+
+#site-title {
+    float: left;
+    margin-top: 4px;
+    margin-bottom: 0;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color:#242424;
+}
+
+.menu {
+    float: right;
+    margin-top: 3px;
+}
+
+li {
+	display:inline;
+	margin-right:8px;
+}
+
+li:hover {
+    border-bottom: 2px solid #fba43f;
+}
+
+.search-form {
+    float: right;
+    margin-left: 10px;
+}
+
+.search-submit {
+    padding-top: 4px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.search-form input.search-field {
+    width: 140px;
+    height: 1.6rem;
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display:hidden;
+}
+
+#content {
+    margin-top: 100px;
+    min-height: 500px;
+}
+
+#container2 {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+article {
+	width: 80%;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-bottom: 100px !important;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.post-wrapper {
+    position: relative;
+    width: 75%;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 5% 7%;
+    background-color: #FFF;
+    text-align: left;
+    box-shadow: 0px 0px 3px #888888;
+}
+
+.entry-title {
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.entry-date {
+    font-size: 0.8em;
+    margin-top:-5px;
+
+}
+
+.orange {
+	color: #fba43f;
+}
+
+.avatar {
+	float:right;
+}
+
+@media screen and (max-width: 1000px) {
+	#container2{
+		width:90%;
+	}
+		form {
+		display:none;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#container2{
+		width:100%;
+	}
+
+	.bgslika {
+		display:none;
+	}
+
+	.post-wrapper{
+	    box-shadow: 0px 0px 0px #888888;
+	}
+
+	li {
+		display:block;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	body {
+		font-size:0.7em;
+	}
+}
